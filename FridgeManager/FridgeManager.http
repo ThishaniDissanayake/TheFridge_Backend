@@ -1,0 +1,6 @@
+@FridgeManager_HostAddress = http://localhost:5037
+
+GET {{FridgeManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

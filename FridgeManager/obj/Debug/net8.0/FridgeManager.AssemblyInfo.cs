@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FridgeManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c74613671d9d45164689f4b3f2e842c9e9f9263")]
 [assembly: System.Reflection.AssemblyProductAttribute("FridgeManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FridgeManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

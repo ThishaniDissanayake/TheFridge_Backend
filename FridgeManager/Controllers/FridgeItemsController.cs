@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using FridgeManagerAPI.Data;
 using FridgeManagerAPI.Models;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace FridgeManagerAPI.Controllers
@@ -41,6 +42,14 @@ namespace FridgeManagerAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<FridgeItem>> PostFridgeItem(FridgeItem fridgeItem)
         {
+            var existingItem = await _context.FridgeItems
+                                             .FirstOrDefaultAsync(f => f.Name == fridgeItem.Name && f.ExpiryDate == fridgeItem.ExpiryDate);
+
+            if (existingItem != null)
+            {
+                return Conflict("Item with the same name and expiry date already exists.");
+            }
+
             fridgeItem.Id = 0;
             _context.FridgeItems.Add(fridgeItem);
             await _context.SaveChangesAsync();

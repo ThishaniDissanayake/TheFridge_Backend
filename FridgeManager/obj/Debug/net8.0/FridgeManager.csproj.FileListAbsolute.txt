@@ -166,3 +166,4 @@ D:\L2S1\Fridge\Backend\FridgeManager\FridgeManager\bin\Debug\net8.0\runtimes\win
 D:\L2S1\Fridge\Backend\FridgeManager\FridgeManager\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\L2S1\Fridge\Backend\FridgeManager\FridgeManager\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\L2S1\Fridge\Backend\FridgeManager\FridgeManager\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\L2S1\Fridge\Backend\FridgeManager\FridgeManager\obj\Debug\net8.0\FridgeManager.sourcelink.json
